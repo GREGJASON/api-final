@@ -2,7 +2,7 @@
 
 |发布日期|2019.12.09|
 | ---------- | --- |
-|产品名称|绿植计划|
+|产品名称|闻香计划|
 |文件现状|进行中|
 |文件的主人|石恒|
 |更新|2018.12.10|
@@ -312,7 +312,7 @@ recognize2()
 2.产品流程图
 ![image](https://upload-images.jianshu.io/upload_images/9130153-547beb11a20bb447.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 3.产品原型
-[ARPLANT](https://ccwwen.github.io/ARPLANT/)
+[ARPLANT]()
 
 # 将要做
 - 语音播报可选择播放声音（男声、女声、儿童）
