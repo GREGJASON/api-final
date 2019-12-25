@@ -130,7 +130,10 @@ info()
 ```
 
 返回结果
-![@ZH`97D%VMZX8}1UG(L[YHO.png](https://upload-images.jianshu.io/upload_images/9130153-c9c05a2a4c5c0abe.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+```python
+{"log_id": 6350852702531560411, "result": [{"score": 0.9089241027832, 
+"name": "杜鹃"}, {"score": 0.29999804496765, "name": "石竹"}, {"score": 0.036180101335049, 
+"name": "迎红杜鹃"}, {"score": 0.028431579470634, "name": "锦带花"}, {"score": 0.020664585754275, "name": "皋月杜鹃"}]}
 
 
 
