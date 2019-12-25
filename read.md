@@ -100,21 +100,20 @@
 import base64
 import requests
 url_host = "http://plantgw.nongbangzhu.cn"
-app_code = '-' #这里替换为你购买的AppCode
-# 植物花卉识别接口_v2的请求示例
+app_code = 'c29f496b34324aa7a7448845bf6148bc' #这里替换为你购买的AppCode
+# 植物花卉识别接口_v2的请求示例http://localhost:8888/notebooks/Untitled4.ipynb?kernel_name=python3#
 def recognize2():
     url_path = '/plant/recognize2'
 
-    with open("./pics/杜鹃.jpg", "rb") as image_file:
+    with open("20180927212049_91150.jpg", "rb") as image_file:
         img_base64 = base64.b64encode(image_file.read()).decode('ascii')
         body = {'img_base64': img_base64}
 
-        headers = {'content-type': "application/x-www-form-urlencoded", 'authorization': "APPCODE " + '-'}
-        response = requests.request("POST", url_host+url_path, data=body, headers=headers) # 默认utf-8
+        headers = {'content-type': "application/x-www-form-urlencoded", 'authorization': "APPCODE" + app_code}
+        response = requests.request("POST","http://plantgw.nongbangzhu.cn"+'/plant/recognize2', data=body, headers=headers) # 默认utf-8
         print(response.text)
 
     return
-recognize2()
 # 植物百科信息获取
 def info():
     url_path = '/plant/info'
