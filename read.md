@@ -138,7 +138,7 @@ info()
 
 
 **调用百度细粒度图像识别API**
-
+![蒲公英.jpeg](https://upload-images.jianshu.io/upload_images/9443754-cf8a9eee1e9928ac.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 ```python
 # encoding:utf-8
 import base64
@@ -155,13 +155,13 @@ from urllib.parse import urlencode
 request_url = "https://aip.baidubce.com/rest/2.0/image-classify/v1/plant"
 
 
-f = open('./pics/杜鹃.jpeg', 'rb')
+f = open('20180927212049_91150.jpg', 'rb')
 img = base64.b64encode(f.read()).decode('ascii')
 
 params = {"image":img}
 params = urlencode(params).encode("utf-8")
 
-access_token = '-'
+access_token = '24.509ddd490e9f742e99c0106a6c27ab9d.2592000.1579846768.282335-17996248'
 request_url = request_url + "?access_token=" + access_token
 request = Request(url=request_url, data=params)
 request.add_header('Content-Type', 'application/x-www-form-urlencoded')
@@ -170,14 +170,12 @@ content = response.read()
 content=content.decode('utf-8')
 if content:
     print (content)
-```
 
 返回结果
 
-```json
-{"log_id": 6350852702531560411, "result": [{"score": 0.9089241027832, 
-"name": "杜鹃"}, {"score": 0.29999804496765, "name": "石竹"}, {"score": 0.036180101335049, 
-"name": "迎红杜鹃"}, {"score": 0.028431579470634, "name": "锦带花"}, {"score": 0.020664585754275, "name": "皋月杜鹃"}]}
+```{"log_id": 304085595462192825, "result": [{"score": 0.708844780921936, "name": "蒲公英"}, {"score": 0.05350668728351593, "name": "辽东蒲公英"}, {"score": 0.024197814986109734, "name": "药用蒲公英"}]}
+In [77]:
+
 ```
 
 2.识别杂草
