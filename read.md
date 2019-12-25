@@ -138,7 +138,9 @@ info()
 
 
 **调用百度细粒度图像识别API**
+
 ![蒲公英.jpeg](https://upload-images.jianshu.io/upload_images/9443754-cf8a9eee1e9928ac.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
 ```python
 # encoding:utf-8
 import base64
