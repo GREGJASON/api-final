@@ -331,11 +331,12 @@ recognize2()
 
 # 5.产品原型
 1.产品结构图
-![image]()
+![image.png](https://upload-images.jianshu.io/upload_images/9443754-98e0a4814b95c087.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 2.产品流程图
-![image]()
+![image.png](https://upload-images.jianshu.io/upload_images/9443754-87b1fd3e47dc1111.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
 3.产品原型
-[ARPLANT]()
+[ARPLANT]( http://nfunm073.gitee.io/api-final-axure-all)
 
 # 将要做
 - 语音播报可选择播放声音（男声、女声、儿童）
