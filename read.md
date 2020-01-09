@@ -341,6 +341,7 @@ recognize2()
 但是使用昏暗且模糊化的图片，识别结果是错误的。光照和清晰度都在影响着植物的识别结果。
 
 # 5.产品原型
+
 1.产品结构图
 ![image.png](https://upload-images.jianshu.io/upload_images/9443754-98e0a4814b95c087.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 2.产品流程图
@@ -348,6 +349,9 @@ recognize2()
 
 3.产品原型
 [ARPLANT]( http://nfunm073.gitee.io/api-final-axure-all)
+[原型下载地址](http://nfunm073.gitee.io/api-final-axure-all)
+4.api调用页面展示
+[植物识别api调用结果展页面]( https://nfunm073.gitee.io/api-final-axure-all/#g=1&id=ffref1&p=%E9%89%B4%E5%AE%9A%E7%BB%93%E6%9E%9C)
 
 # 将要做
 - 语音播报可选择播放声音（男声、女声、儿童）
