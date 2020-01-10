@@ -6,7 +6,7 @@
 |文件现状|进行中|
 |文件的主人|石恒|
 |更新|2020.1.1|
-[PPT和录屏]( https://github.com/NFUNewMedia2017/PPT)
+# [PPT和录屏]( https://github.com/NFUNewMedia2017/PPT)
 # 1. 产品说明
 ##  价值宣言
 - 阿里的花伴侣智能植物识别API的价值:
